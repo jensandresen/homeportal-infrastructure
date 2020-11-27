@@ -1,0 +1,6 @@
+version: 1
+service:
+  name: thepoker-engine
+  image: mondayworks.azurecr.io/thepoker-engine:20201127.2
+  environmentVariables:
+    PULL_INTERVAL: 300
