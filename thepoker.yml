@@ -4,3 +4,4 @@ service:
   image: mondayworks.azurecr.io/thepoker-engine:20201127.2
   environmentVariables:
     PULL_INTERVAL: 300
+    APPLY_URL: http://pienetes-engine:5000/api/applymanifest
