@@ -1,7 +1,7 @@
 version: 1
 service:
   name: dashy-ui
-  image: mondayworks.azurecr.io/dashy:20201211.1
+  image: mondayworks.azurecr.io/dashy:20201211.2
   ports:
     - 8080:3001
   secrets:
